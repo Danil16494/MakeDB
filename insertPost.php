@@ -1,6 +1,6 @@
 <?php
 require_once "bootstrap.php";
-
+echo "Hello";
 if (count($_POST) > 0) {
     $_POST["datePublication"] = date("Y-m-d");
 
