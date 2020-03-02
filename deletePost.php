@@ -3,6 +3,7 @@ require_once "bootstrap.php";
 if (!isset($_GET['id']) || empty($_GET['id'])) {
     exit;
 }
+echo "hi123";
 $post = $newPost->getPostsID($_GET['id']);
 
 if (isset($_POST['btnDel'])) {
